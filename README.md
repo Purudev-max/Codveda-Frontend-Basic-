@@ -44,6 +44,3 @@ The project is designed to be **easy to understand for beginners** and suitable 
 - **JavaScript (Vanilla)** – Form validation & DOM manipulation
 
 ---
-
-## 📁 Project Structure
-
