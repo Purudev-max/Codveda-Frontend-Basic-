@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codveda Level 1 Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Codveda</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#form">Form</a></li>
+                <li><a href="#counter">Counter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Welcome to Codveda Technology</h2>
+        <p>Empowering businesses with innovative IT solutions</p>
+        <a href="#features" class="btn">Get Started</a>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Our Services</h2>
+        <div class="feature-box">
+            <div class="card">Web Development</div>
+            <div class="card">App Development</div>
+            <div class="card">Digital Marketing</div>
+        </div>
+    </section>
+
+    <section id="form" class="form-section">
+        <h2>Registration Form</h2>
+
+        <form id="myForm">
+            <input type="text" id="name" placeholder="Name">
+            <small id="nameError"></small>
+
+            <input type="email" id="email" placeholder="Email">
+            <small id="emailError"></small>
+
+            <input type="Phone no." id="phone" placeholder="Phone no.">
+            <small id="phoneError"></small>
+
+            <input type="password" id="password" placeholder="Password">
+            <small id="passwordError"></small>
+
+            <button type="submit">Submit</button>
+            <p id="success"></p>
+        </form>
+    </section>
+
+    <section id="counter" class="counter-section">
+        <h2>Counter Application</h2>
+        <h1 id="count">0</h1>
+        <div class="counter-buttons">
+            <button onclick="increment()">Increment</button>
+            <button onclick="decrement()">Decrement</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Codveda Technology</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
